@@ -246,7 +246,7 @@ class Toyota extends Car{
 
 class VAZ {
     function Speed(){
-        echo "VAZ govno";
+        echo "VAZ - это не машина";
         echo "<br />";
     }
 }
@@ -260,7 +260,7 @@ foreach ($car1 as $car1){
         $car1->Speed();
     }
     else{
-        echo "Это говно а не тачка";
+        echo "Это ведро";
     }
 }
 
